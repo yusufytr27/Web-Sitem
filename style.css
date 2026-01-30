@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+    background-color: #0f172a;
+    color: #e2e8f0; 
+}
+#banner {
+    width:90%;
+    width: fit-content;
+    min-width: 50%;
+    height: 50px; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    border-style: solid;
+    margin:20px auto;
+    background-color: #1e293b; 
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+    
+}
+.logo{
+    font-family: 'Roboto Mono', monospace;
+    position: relative;
+    left:10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+}
+.logo img{
+    width: 50px;
+    border-radius: 15px;
+    
+}
+.logo h1{
+    position: relative;
+    left:5px;
+    font-family: 'Roboto Mono', monospace;
+    word-spacing: -5px;
+    font-size: 28px;
+    font-weight: 800; 
+    background: linear-gradient(to right,#23d5ab, #ffffff); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    margin: 0;
+}
+
+.navlinks{
+    display: flex;           
+    justify-content:center; 
+    gap: 30px;              
+    list-style: none; 
+    padding: 0;             
+    margin: 10px 0;
+    position:relative;
+    left: 80px;
+}
+
+.navlinks li img {
+    width: 22px;
+    height: 22px;
+    vertical-align:middle;
+    margin-right: 5px;
+    filter: brightness(0) invert(1);
+}
+
+.s1{
+    border-style: solid;
+    width: 110px;
+    border-radius: 15px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: transparent; 
+    color: white;
+    border: 1px solid white;
+    transition: all 0.4s ease;
+}
+.s1:hover {
+
+    background-color: #23d5ab; 
+    border-color: #23d5ab;
+    color: #0f172a; 
+    box-shadow: 0 0 15px rgba(35, 213, 171, 0.6);
+}
+article {
+    max-width: 700px;       
+    width: 90%;            
+    margin: 50px auto;      
+    background-color: rgba(30, 41, 59, 0.7); 
+    padding: 40px;          
+    border-radius: 20px;    
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    text-align: center;   
+    line-height: 1.6;       
+    color: #e2e8f0;        
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.aciklama-kutusu {
+    text-align: left; 
+    max-width: 700px; 
+    margin: 0 auto;  
+}
+.aciklama-kutusu p {
+    font-size: 1.1rem;      
+    line-height: 1.8;     
+    color: #cbd5e1;         
+    margin-bottom: 20px;    
+    font-weight: 300;  
+}
+.vurgu-metin {
+    font-weight: 500 !important; 
+    color: white !important;
+    border-left: 3px solid #23d5ab; 
+    padding-left: 15px;          
+}
+#hakkımda:target {
+    border-color: #39ff14; 
+    box-shadow: 0 0 30px rgba(57, 255, 20, 0.6), inset 0 0 10px rgba(57, 255, 20, 0.2);
+    transform: scale(1.02);
+    transition: all 0.5s ease;
+}
+html {
+    scroll-behavior: smooth;
+}
+
