@@ -151,7 +151,7 @@
 }
 
 .kapanis-yazisi {
-    margin-bottom: 60px !important; /* Altına 60px boşluk bırak */
+    margin-bottom: 60px !important; 
     padding-bottom: 20px;
     text-align: center;
     margin-top: 40px;
@@ -364,54 +364,54 @@
 
 /* Sağ Taraf: Form Tasarımı */
 .iletisim-formu {
-    flex: 1; /* Esnek genişlik */
+    flex: 1; 
     min-width: 300px;
-    background-color: rgba(0, 0, 0, 0.4); /* Net, koyu bir zemin (Okunabilirlik artar) */
+    background-color: rgba(0, 0, 0, 0.4); 
     padding: 30px;
-    border-radius: 10px; /* Hafif yuvarlatılmış köşeler */
-    border: 1px solid rgba(255, 255, 255, 0.1); /* İnce şık çerçeve */
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1); 
 }
 
 .iletisim-formu h3 {
     margin-bottom: 20px;
     color: #fff;
     font-size: 1.5rem;
-    border-bottom: 2px solid #00a8ff; /* Başlık altına mavi çizgi */
+    border-bottom: 2px solid #00a8ff; 
     display: inline-block;
     padding-bottom: 5px;
 }
 
 .form-satir {
-    display: flex; /* İkon ve kutuyu yan yana getir */
+    display: flex; 
     align-items: center;
-    background: rgba(255, 255, 255, 0.05); /* Kutunun rengi */
+    background: rgba(255, 255, 255, 0.05); 
     margin-bottom: 15px;
     border-radius: 5px;
-    border: 1px solid transparent; /* Kenarlık için yer tutucu */
+    border: 1px solid transparent; 
     transition: border-color 0.3s;
 }
 
-/* Tıklayınca Çerçevesi Mavi Olsun */
+
 .form-satir:focus-within {
     border-color: #00a8ff;
 }
 
 .ikon {
     padding: 0 15px;
-    color: #00a8ff; /* Mavi ikon */
+    color: #00a8ff; 
     font-size: 1.1rem;
 }
 
 .iletisim-formu input, 
 .iletisim-formu textarea {
     width: 100%;
-    background: transparent; /* Arka planı şeffaf yap (üstteki kutu rengini alsın) */
-    border: none; /* Çizgileri kaldır */
-    padding: 15px 15px 15px 0; /* İkon olduğu için soldan boşluğa gerek yok */
+    background: transparent; 
+    border: none; 
+    padding: 15px 15px 15px 0; 
     color: white;
     font-size: 1rem;
     font-family: 'Segoe UI', sans-serif;
-    outline: none; /* Tıklayınca çıkan standart çizgiyi sil */
+    outline: none; 
 }
 
 .gonder-btn {
@@ -429,7 +429,7 @@
 }
 
 .gonder-btn:hover {
-    background-color: #0084c7; /* Üzerine gelince koyulaşsın */
+    background-color: #0084c7; 
 }
 
 /* ---- FOOTER TASARIMI ---- */
